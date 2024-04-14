@@ -1,4 +1,5 @@
 #pragma once
+#define M_PI 3.14159265358979323846
 #include <SFML\Graphics.hpp>
 #include <SFML\System.hpp>
 #include "Box2D.h"
@@ -20,7 +21,12 @@ private:
 
 	b2World* _world;
 	b2Body* _body;
+	b2Body* _box;
+	b2Body* _cannon;
+	b2Body* _crosshair;
 	SFML* _render;
+
+	Vector2f _cannonPosition;
 
 public:
 
@@ -33,5 +39,7 @@ public:
 	void DoEvents();
 	void DrawGame();
 	void SetZoom();
-	void ApplyForce(const b2Vec2& force, const b2Vec2& point, bool wake);
+	void UpdateCrosshairPosition();
+	void ShootCannon(float _angle);
+	float CalculateCannonAngle(Vector2f _mousePosition);
 };

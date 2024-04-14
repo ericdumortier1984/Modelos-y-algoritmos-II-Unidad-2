@@ -1,2 +1,5 @@
 ﻿  Game.cpp
+C:\Users\gabri\Documents\ERIC CURSO\Tecnicatura en Videojuegos\MODELOS Y ALGORITMOS II\ENTREGA UNIDAD 2\Modelos-y-algoritmos-II-Unidad-2\Project6\Project6\Game.cpp(72,24): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\gabri\Documents\ERIC CURSO\Tecnicatura en Videojuegos\MODELOS Y ALGORITMOS II\ENTREGA UNIDAD 2\Modelos-y-algoritmos-II-Unidad-2\Project6\Project6\Game.cpp(84,95): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\gabri\Documents\ERIC CURSO\Tecnicatura en Videojuegos\MODELOS Y ALGORITMOS II\ENTREGA UNIDAD 2\Modelos-y-algoritmos-II-Unidad-2\Project6\Project6\Game.cpp(84,49): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
   Project6.vcxproj -> C:\Users\gabri\Documents\ERIC CURSO\Tecnicatura en Videojuegos\MODELOS Y ALGORITMOS II\ENTREGA UNIDAD 2\Modelos-y-algoritmos-II-Unidad-2\Project6\x64\Debug\Project6.exe
